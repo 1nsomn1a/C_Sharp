@@ -1,0 +1,6 @@
+C:\Dark\dotNET\StaticMethod\StaticMethod\bin\Debug\StaticMethod.exe.config
+C:\Dark\dotNET\StaticMethod\StaticMethod\bin\Debug\StaticMethod.exe
+C:\Dark\dotNET\StaticMethod\StaticMethod\bin\Debug\StaticMethod.pdb
+C:\Dark\dotNET\StaticMethod\StaticMethod\obj\Debug\StaticMethod.csprojResolveAssemblyReference.cache
+C:\Dark\dotNET\StaticMethod\StaticMethod\obj\Debug\StaticMethod.exe
+C:\Dark\dotNET\StaticMethod\StaticMethod\obj\Debug\StaticMethod.pdb
