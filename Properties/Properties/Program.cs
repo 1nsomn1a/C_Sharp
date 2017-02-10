@@ -9,24 +9,23 @@ namespace Properties
     class TV
     {
         private int volume;
-        private int number;
+        //private int number;
 
         public TV(int number) //Constructor
         {
-            this.number = number;
+            Number = number;
         }
 
-        //public int Number { get; set; }   //cant use
+        public int Number { get; private set; }
 
-        public int Number
-        {
-            get
-            {
-                return number;
-            }
-        } 
+        //public int Number
+        //{
+        //    get
+        //    {
+        //        return number;
+        //    }
+        //}
 
-        //public int Volume { get; set; }
 
         public int Volume
         {
