@@ -1,0 +1,6 @@
+C:\Dark\dotNET\Properties\Properties\bin\Debug\Properties.exe.config
+C:\Dark\dotNET\Properties\Properties\bin\Debug\Properties.exe
+C:\Dark\dotNET\Properties\Properties\bin\Debug\Properties.pdb
+C:\Dark\dotNET\Properties\Properties\obj\Debug\Properties.csprojResolveAssemblyReference.cache
+C:\Dark\dotNET\Properties\Properties\obj\Debug\Properties.exe
+C:\Dark\dotNET\Properties\Properties\obj\Debug\Properties.pdb
