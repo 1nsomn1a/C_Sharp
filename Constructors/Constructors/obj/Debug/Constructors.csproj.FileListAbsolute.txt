@@ -1,0 +1,6 @@
+C:\Dark\dotNET\Constructors\Constructors\bin\Debug\Constructors.exe.config
+C:\Dark\dotNET\Constructors\Constructors\bin\Debug\Constructors.exe
+C:\Dark\dotNET\Constructors\Constructors\bin\Debug\Constructors.pdb
+C:\Dark\dotNET\Constructors\Constructors\obj\Debug\Constructors.csprojResolveAssemblyReference.cache
+C:\Dark\dotNET\Constructors\Constructors\obj\Debug\Constructors.exe
+C:\Dark\dotNET\Constructors\Constructors\obj\Debug\Constructors.pdb
