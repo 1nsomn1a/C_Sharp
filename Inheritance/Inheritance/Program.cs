@@ -32,7 +32,7 @@ namespace Inheritance
 
         public void Guard()
         {
-            Console.WriteLine("Gav, Gav, Rrrrrrr");
+            Console.WriteLine(Name + " Gav, Gav, Rrrrrrr");
         }
     }
 
@@ -47,7 +47,7 @@ namespace Inheritance
 
         public void CatchMouse()
         {
-            Console.WriteLine("MEOW!");
+            Console.WriteLine(Name + " MEOW!");
         }
     }
 
@@ -55,16 +55,46 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
+            /*
             Dog dog = new Dog("Johny", "Black");
             Cat cat = new Cat("Barsik", 4);
-
             dog.Guard();
             cat.CatchMouse();
-
-            //dog.Name = "Kolya";  // { get; private set; }
-
+            //dog.Name = "Kolya";  //cant use: { get; private set; }
             Console.WriteLine($"Name: {dog.Name}; Color: {dog.Color}");
             Console.WriteLine($"Name: {cat.Name}; Age: { cat.Age}");
+            */
+
+            List<Animal> animal = new List<Animal>();
+
+            //animal.Add(new Dog("Bim")); //cant use: { get; private set; }
+            animal.Add(new Dog("Barbos", "black"));
+            animal.Add(new Cat("Barsik", 3));
+            animal.Add(new Cat("Lima", 4));
+
+            /*
+            foreach (Animal an in animal)
+            {
+                if (an is Dog)
+                    ((Dog)an).Guard();
+                else
+                    ((Cat)an).CatchMouse();
+            }
+            */
+
+            foreach (Animal an in animal)
+            {
+                if (an is Dog)
+                    (an as Dog).Guard();
+                else
+                    (an as Cat).CatchMouse();
+            }
+
+            Console.ReadKey();
+
+            
+
+
        }
     }
 }
