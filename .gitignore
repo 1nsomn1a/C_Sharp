@@ -70,7 +70,7 @@ artifacts/
 *.scc
 *.config
 *.csproj
-*.sln
+AssemblyInfo.cs
 
 # Chutzpah Test files
 _Chutzpah*
