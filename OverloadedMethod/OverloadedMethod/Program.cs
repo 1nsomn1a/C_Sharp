@@ -13,13 +13,7 @@ namespace OverloadedMethod
             int tmp = names.Count;
             foreach (var n in names)
             {
-                if (tmp == 1)
-                    Console.Write(n);
-                else
-                {
-                    Console.Write(n + ", ");
-                    tmp--;
-                }
+                Console.Write(tmp == 1 ? n : (n + ", "), tmp--);
             }
 
             Console.WriteLine();
@@ -30,13 +24,7 @@ namespace OverloadedMethod
             int tmp = names.Count;
             foreach (var n in names)
             {
-                if (tmp == 1)
-                    Console.Write(n);
-                else
-                { 
-                    Console.Write(n + $" {s} ");
-                    tmp--;
-                }
+                Console.Write(tmp == 1 ? n : (n + $" {s} "), tmp--);
             }
 
             Console.WriteLine();
